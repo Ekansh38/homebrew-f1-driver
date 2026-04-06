@@ -11,7 +11,7 @@ class F1Driver < Formula
   end
 
   def install
-    libexec.install Dir["f1-driver/*"]
+    libexec.install Dir["*"]
     bin.write_exec_script libexec/"f1-driver"
   end
 
